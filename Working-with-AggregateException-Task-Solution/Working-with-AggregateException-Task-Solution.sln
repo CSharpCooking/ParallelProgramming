@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Working-with-AggregateException-Task-Solution", "Working-with-AggregateException-Task-Solution.csproj", "{5C763F70-69D7-4D6C-91B9-B7B9B0B1908C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C763F70-69D7-4D6C-91B9-B7B9B0B1908C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C763F70-69D7-4D6C-91B9-B7B9B0B1908C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C763F70-69D7-4D6C-91B9-B7B9B0B1908C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C763F70-69D7-4D6C-91B9-B7B9B0B1908C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D09388F-1791-4537-B47C-09614DCBF5F8}
+	EndGlobalSection
+EndGlobal
