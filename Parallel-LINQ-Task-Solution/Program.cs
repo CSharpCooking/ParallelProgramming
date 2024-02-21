@@ -89,8 +89,8 @@ namespace Parallel_LINQ_Task_Solution
             using (CryptoStream cryptoStream = new CryptoStream(msInput, decryptor.Value, CryptoStreamMode.Read))
             using (MemoryStream msOutput = new MemoryStream())
             {
-                cryptoStream.CopyTo(msOutput); // Копируем расшифрованные данные в msOutput
-                return Encoding.UTF8.GetString(msOutput.ToArray()); // Преобразуем в строку
+                cryptoStream.CopyTo(msOutput); // Copy decrypted data to msOutput
+                return Encoding.UTF8.GetString(msOutput.ToArray()); // Convert to string
             }
         }
     }
