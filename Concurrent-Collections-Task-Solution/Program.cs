@@ -54,7 +54,7 @@ namespace Concurrent_Collections_Task_Solution
             Console.WriteLine($"Dictionary<int,int> Addition: {stopwatch.ElapsedMilliseconds} ms.");
 
             stopwatch.Restart();
-            Parallel.For(0, size, i => dictionary.ContainsKey(i));
+            for (int i = 0; i < size; i++) dictionary.ContainsKey(i);
             stopwatch.Stop();
             Console.WriteLine($"Dictionary<int,int> Search: {stopwatch.ElapsedMilliseconds} ms.");
 
